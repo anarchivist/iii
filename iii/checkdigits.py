@@ -24,6 +24,9 @@ def calc_check_digit(digitseq):
     record number without the initial character that specifies the type of
     record (e.g. 'b' for bibliographic record) or the final character that
     represents the check digit.
+    
+    The algorithm to calculating check digits is found at the following URL:
+    http://www.case.edu/libraries/ksl/techteam/gmil_records_numbers.html
     """
     _sum = 0
     multiplier = 2
