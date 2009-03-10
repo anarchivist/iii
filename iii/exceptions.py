@@ -15,14 +15,19 @@
 # You should have received a copy of the GNU General Public License
 # along with iii.  If not, see <http://www.gnu.org/licenses/>.
 
-# __init__.py
+# exceptions.py - Exceptions for III module
 
-__version__ = '0.1'
-
-from iii import recnum
-
-def main():
+class ValidationError(Exception):
+    """exceptions.ValidationError: Base class for validation errors"""
     pass
 
-if __name__ == '__main__':
-    main()
+
+class InvalidCheckDigitError(ValidationError):
+    "exceptions.InvalidCheckDigitError: Raised when check digit is invalid"
+    pass
+
+
+class InvalidRecordTypeError(ValidationError):
+    "exceptions.InvalidRecordTypeError: Raised when record type is invalid"
+    pass
+
