@@ -58,8 +58,11 @@ def validate(rec_num, quiet=True):
     
     validate() expects a string containing a III record number with a check
     digit and containing an alphabetical first character specifying the type
-    of record. If quiet is True, validate will not 
-    raise exceptions and instead only return True or False.
+    of record. If quiet is True, validate() will not raise exceptions and
+    instead only return True or False.
+    
+    A check digit of 'a' is considered valid and acts as a wildcard check
+    digit replacement in contexts where the check digit is necessary.
     """
     if RECORD_TYPES.has_key(rec_num[0]):
         rec_seq = [int(digit) for digit in rec_num[1:-1]]
