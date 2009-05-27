@@ -36,8 +36,9 @@ def calc_check_digit(digitseq):
     record (e.g. 'b' for bibliographic record) or the final character that
     represents the check digit.
     
-    The algorithm to calculating check digits is found at the following URL:
-    http://www.case.edu/libraries/ksl/techteam/gmil_records_numbers.html
+    The algorithm to calculate check digits is found at the following URL:
+    http://csdirect.iii.com/manual/rmil_records_numbers.html (sign-in
+    required).
     """
     _sum = 0
     multiplier = 2
