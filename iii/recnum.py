@@ -22,10 +22,12 @@ from iii.exceptions import InvalidCheckDigitError, InvalidRecordTypeError
 RECORD_TYPES = {'a': 'authority',
                 'b': 'bibliographic',
                 'c': 'checkin',
+                'e': 'electronic resource',
                 'i': 'item',
+                'l': 'license',
                 'o': 'order',
                 'p': 'patron',
-                'r': 'course',
+                'r': 'course reserve',
                 'v': 'vendor'}
 
 def calc_check_digit(digitseq):
