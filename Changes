@@ -1,0 +1,5 @@
+v0.2 Mon Sep 21 22:04:39 EDT 2009
+- Added more record types to validation code
+- Fixed docstrings to point to proper/authoritative check digit algorithms
+
+v0.1 2009-03-09 18:38:56.467500
