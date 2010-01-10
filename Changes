@@ -1,3 +1,8 @@
+v0.3 Sun 10 Jan 2010 12:37:24 PM EST 
+- Updated copyright statements
+- Added webpac.py, which contains a WebPACReader class to request records
+  and information about them from WebPAC Pro instances
+
 v0.2 Mon Sep 21 22:04:39 EDT 2009
 - Added more record types to validation code
 - Fixed docstrings to point to proper/authoritative check digit algorithms

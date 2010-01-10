@@ -1,4 +1,4 @@
-# Copyright (C) 2009 Mark A. Matienzo
+# Copyright (C) 2009-2010 Mark A. Matienzo
 #
 # This file is part of iii, the Python Innovative Interfaces utility module.
 #
@@ -17,9 +17,10 @@
 
 # __init__.py
 
-__version__ = '0.2'
+__version__ = '0.3'
 
 from iii import recnum
+from iii.webpac import WebPACReader
 
 def main():
     pass

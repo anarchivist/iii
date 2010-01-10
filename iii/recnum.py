@@ -1,4 +1,4 @@
-# Copyright (C) 2009 Mark A. Matienzo
+# Copyright (C) 2009-2010 Mark A. Matienzo
 #
 # This file is part of iii, the Python Innovative Interfaces utility module.
 #

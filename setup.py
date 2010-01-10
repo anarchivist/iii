@@ -13,7 +13,7 @@ Development Status :: 3 - Alpha
 
 setup(
     name = 'iii',
-    version = '0.2',  # remember to update iii/__init__.py on release!
+    version = '0.3',  # remember to update iii/__init__.py on release!
     url = 'http://bitbucket.org/anarchivist/iii',
     author = 'Mark A. Matienzo',
     author_email = 'mark@matienzo.org',

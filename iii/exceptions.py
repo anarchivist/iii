@@ -1,4 +1,4 @@
-# Copyright (C) 2009 Mark A. Matienzo
+# Copyright (C) 2009-2010 Mark A. Matienzo
 #
 # This file is part of iii, the Python Innovative Interfaces utility module.
 #
@@ -31,3 +31,9 @@ class InvalidRecordTypeError(ValidationError):
     "exceptions.InvalidRecordTypeError: Raised when record type is invalid"
     pass
 
+class RecordDoesNotExistError(ValidationError):
+    "exceptions.RecordDoesNotExistError: Raised when record doesn't exist'"
+    pass
+
+class InvalidWebPACInstanceError(ValidationError):
+    pass
